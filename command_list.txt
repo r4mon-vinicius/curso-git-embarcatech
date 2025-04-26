@@ -1,0 +1,10 @@
+mkdir curso-git
+cd curso-git
+git init --initial-branch=master
+git config user.name "Ramon Vinícius"
+git config user.email ramon.vinicius.eng@gmail.com
+nano dados.txt
+git add dados.txt
+git commit -m "Criação do arquivo contendo dados de nome e email"
+git remote add origin https://github.com/r4mon-vinicius/curso-git-embarcatech.git
+git push -u origin master
